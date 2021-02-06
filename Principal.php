@@ -36,7 +36,6 @@
                         <li><a href="plaza.php">PLAZA PRINCIPAL DE CUSCO<span class="icon-cloud"></span></a></li>
                         <li><a href="salinera.php">SALINERAS DE MARAS<span class="icon-cloud"></span></a></li>
                         <li><a href="humantay.php">LAGUNA HUMANTAY<span class="icon-cloud"></span></a></li>
-                        <li><a href="vinicu.php">VINICUNCA<span class="icon-cloud"></span></a></li>
                         <li><a href="vrojo.php">VALLE ROJO<span class="icon-cloud"></span></a></li>
                         <li><a href="huasao.php">HUMEDAL DE HUASAO<span class="icon-cloud"></span></a></li>
                         <li><a href="punchu.php">MONTAÑA PALLAY PUNCHU<span class="icon-cloud"></span></a></li>
@@ -45,12 +44,12 @@
                 <li class="submenu">
                     <a href="#"><span class="icon-images"></span> GALERÍA DE IMÁGENES<span class="despegable icon-circle-down"></span></a>
                     <ul class="hijos">
-                        <li><a href="#">INSERTAR TUS IMÁGENES<span class="icon-file-picture"></span></a></li>
-                        <li><a href="#">MI GALERÍA<span class="icon-image"></span></a></li>
+                        <li><a href="insertar.php">INSERTAR TUS IMÁGENES<span class="icon-file-picture"></span></a></li>
+                        <li><a href="mostrar.php">MI GALERÍA<span class="icon-image"></span></a></li>
                     </ul>
                 </li>
                 <li><a href="#"><span class="icon-stackoverflow">ACERCA DE</span></a></li>
-                <li><a href="Login.php"><span class="icon">SALIR</span></a></li>
+                <li><a href="index.php"><span class="icon">SALIR</span></a></li>
             </ul>
         </nav>
     </header>

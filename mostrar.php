@@ -6,7 +6,8 @@
     <title>Mostrar Imagenes</title>
 </head>
 <body>
-    <h2>INSERTAR IMÁGENES DE LA EXPERIENCIA VIVIDA EN CUSCO</h2>
+    <?php include "Principal.php"; ?>
+    <h2>TUS IMÁGENES DE LA EXPERIENCIA VIVIDA EN CUSCO</h2>
     <center>
         <table border="2">
             <thead>
@@ -23,7 +24,7 @@
                     $host     = 'localhost';
                     $usuario = 'root';
                     $password = '';
-                    $basedatos  = 'ayuda';
+                    $basedatos  = 'proyectofinal';
                     $puerto = '3360';
 
                     $db = new mysqli($host, $usuario, $password, $basedatos, $puerto);
@@ -36,9 +37,11 @@
                             <td><?php echo $row['id']; ?></td>
                             <td><?php echo $row['titulo']; ?></td>
                             <td><?php echo $row['descripcion']; ?></td>
-                            <td><img src="data:imagen/jpg:base64,<?php echo base64_encode($row['imagen']); ?>"/></td>
-                            <td href="#">MODIFICAR</td>
-                            <td href="#">ELIMINAR</td>
+                            <td>
+                            <img width="500" src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>"/>
+                            </td>
+                            <td> <a href="#">Modificar</a></td>
+                            <td ><a href="#"> Eliminar</a></td>
                         </tr>
                         <?php
                     }

@@ -11,46 +11,50 @@ if(isset($_POST["submit"])){
         $host     = 'localhost';
         $usuario = 'root';
         $password = '';
-        $basedatos = 'ayuda';
+        $basedatos = 'proyectofinal';
         $puerto = '3360';
         
         $con = new mysqli($host, $usuario, $password, $basedatos, $puerto);
 
         if($con->connect_error){
-            die("Connection failed: " . $con->connect_error);
+            die("Conexion fallida: " . $con->connect_error);
         }
         
-        $dataTime = date("Y-m-d H:i:s");
  
-        $insercion = $con->query("INSERT into insercion (titulo, descripcion, imagen, creado) VALUES ('$titulo', '$descripcion', '$img', '$dataTime')");
+        $insercion = $con->query("INSERT into insercion (titulo, descripcion, imagen) 
+        VALUES ('$titulo', '$descripcion', '$img')");
         if($insercion){
-            echo "File uploaded successfully.";
+            echo "Tu imagen se subió correctamente.";
         }else{
-            echo "File upload failed, please try again.";
+            echo "Error al cargar su  archivo, intentelo de nuevo.";
         } 
     }else{
-        echo "Please select an image file to upload.";
+        echo "Seleccione un archivo de imagen para cargar.";
     }
     
 }
+include "Principal.php";
 echo "<center><h2>REGISTRA TU EXPERIENCIA VIVIDA EN LA CIUDAD DE LOS INCAS</h2></center>";
 echo <<<_END
 <html lang="en">
 <head>
 <title>REGISTRA TU EXPERIENCIA</title>
-<link href="css/estiloinsertarss.css" rel="stylesheet" type="text/css"/> 
+
+<link href="css/ulestilo.css" rel="stylesheet" type="text/css"/> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<form action="upload.php" method="post" enctype="multipart/form-data">
-        ponel titulo:
+<div class="contenido">
+<form  action="insertar.php" method="post" enctype="multipart/form-data">
+        <h3>Poner el titulo a su imagen</h3>
         <input type="text" name="titulo"/>
-        describe:
+        <h3>Poner la descripcion de su imagen</h3>
         <input type="text" name="descripcion"/>
-        Select image to upload:
+        <h3>Seleccione su imagen</h3>
         <input type="file" name="imagen"/>
-        <input type="submit" name="submit" value="UPLOAD"/>
+        <input type="submit" name="submit" value="SUBIR"/>
     </form>
+    </div>
 </body>
 </html>
 _END;

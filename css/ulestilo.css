@@ -1,0 +1,77 @@
+H2{
+    padding: 25px;
+    max-width: 400px;
+    background-color: #803636;
+    margin: 0 auto;
+    
+}
+.container{
+    text-align: center;
+
+}
+.texto{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background: rgb(45, 67, 107);
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center;  
+    margin: 3em; 
+    overflow: hidden; 
+    padding: 0.000001px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 0px 0px 0px 0px; 
+    -webkit-border-radius: 0px 0px 0px 0px; 
+
+    
+}
+.mapa{
+    align-content: center;
+}
+.mapa { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center;  
+    margin: 0 0 1px; 
+    overflow: hidden; 
+    padding: 0.000001px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 0px 0px 0px 0px; 
+    -webkit-border-radius: 0px 0px 0px 0px; 
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400);
+  form{
+    padding: 60px;
+    max-width: 400px;
+    background-color: #661616;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: horizontal; 
+  }
+  
+  form button {
+      display: block;
+      background-color: #0095eb;
+      padding: 10px 45px 10px 45px;
+      border: 0;
+      font-size: 1em; 
+      color: 	white;
+    font-family: "Roboto", sans-serif;
+  }
+  form button:hover{
+      background-color: #046193;
+  }

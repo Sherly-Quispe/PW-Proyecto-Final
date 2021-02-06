@@ -5,7 +5,8 @@ echo <<<_END
 <html>
     <head>
         <title>CUSCO PARA EL MUNDO</title>
-        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>     
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/ulestilo.css" rel="stylesheet" type="text/css"/>      
     </head>
     <body>
       <form method="post" action="LRegistrarse.php">
@@ -16,14 +17,14 @@ echo <<<_END
             <input type="text" id="entrada" name="nombre" placeholder="Ingrese Nombres Completos" required></td></tr>
          <tr><td>Apellidos</br>
             <input type="text" id="entrada" name="apellido" placeholder="Ingrese Apellidos" required></td></tr>
-         <tr><td>Usuario</br>
+         <tr><td>Correo</br>
             <input type="text" id="entrada" name="usuario" placeholder="Ingrese tu usuario" required></td></tr>
          <tr><td>Password</br>
             <input type="password" id="entrada" name="password" placeholder="Ingrese Contraseña" required></td></tr>
          <tr><td>
             <input type="submit" id="boton" value="Registrarse"></td></tr>
          <tr><td>
-         <a href="Login.php" id="entrada">INGRESAR AL DIARIO</a></tr></br>
+         <a href="index.php" id="entrada">INGRESAR</a></tr></br>
          </table>
       </form>
     </body>

@@ -5,95 +5,43 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Coricancha</title>
     <link rel="stylesheet" href="css/estiloP.css">
+    <link rel="stylesheet" href="css/ulestilo.css">
     <link rel="stylesheet" href="fonts.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
-    <header>
-        <div class="menu-bar">
-            <a href="#" class="menusito"><span class="icon-menu"></span>MENU</a>
+<?php include "Principal.php"; ?>
+    <div class="container"> 
+                <h2 class="center-align titulo">CORICANCHA TEMPLO DORADO</h2>
+                <img src="img/cori.jpg" alt="" width="500">
         </div>
-        <nav>
-            <ul>
-                <li><a href="Principal.php"><span class="icon-home"></span>INICIO</a></li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-library"></span>CENTROS ARQUEOLÓGICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="Saqsaywaman.php">SAQSAYWAMAN<span class="icon-star-full"></span></a></li>
-                        <li><a href="tambomachay.php">TAMBOMACHAY<span class="icon-star-full"></span></a></li>
-                        <li><a href="machu.php">MACHU PICCHU<span class="icon-star-full"></span></a></li>
-                        <li><a href="coricancha.php">CORICANCHA<span class="icon-star-full"></span></a></li>
-                        <li><a href="ollantay.php">OLLANTAYTAMBO<span class="icon-star-full"></span></a></li>
-                        <li><a href="pisac.php">PISAC<span class="icon-star-full"></span></a></li>
-                        <li><a href="chinchero.php">CHINCHERO<span class="icon-star-full"></span></a></li>
-                        <li><a href="moray.php">MORAY<span class="icon-star-full"></span></a></li>
-                    </ul>
-                </li>
-                 <li class="submenu">
-                    <a href="#"><span class="icon-office"></span>LUGARES TURÍSTICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="plaza.php">PLAZA PRINCIPAL DE CUSCO<span class="icon-cloud"></span></a></li>
-                        <li><a href="salinera.php">SALINERAS DE MARAS<span class="icon-cloud"></span></a></li>
-                        <li><a href="humantay.php">LAGUNA HUMANTAY<span class="icon-cloud"></span></a></li>
-                        <li><a href="vinicu.php">VINICUNCA<span class="icon-cloud"></span></a></li>
-                        <li><a href="vrojo.php">VALLE ROJO<span class="icon-cloud"></span></a></li>
-                        <li><a href="huasao.php">HUMEDAL DE HUASAO<span class="icon-cloud"></span></a></li>
-                        <li><a href="punchu.php">MONTAÑA PALLAY PUNCHU<span class="icon-cloud"></span></a></li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-images"></span> GALERÍA DE IMÁGENES<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="insertar.php">INSERTAR TUS IMÁGENES<span class="icon-file-picture"></span></a></li>
-                        <li><a href="mostrar.php">MI GALERÍA<span class="icon-image"></span></a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="icon-stackoverflow">ACERCA DE</span></a></li>
-                <li><a href="Login.php"><span class="icon">SALIR</span></a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="contenedor">
-        <h3>CORICANCHA TEMPLO DORADO</h3>
-        <div id="slider">
-            <ul id="slider-ul">
-            </ul> 
-        </div>
-        <div>
+        <div class="texto">
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Existen diversas versiones sobre quién fue el mandatario que ordenó construir Coricancha; mientras que algunos aseguran que esta edificación existe antes que los incas y que estos hicieron una remodelación del edificio, 
+            otros afirman que fue el inca Pachacutec que ordenó la construcción del templo tras su victoria sobre los chanchas en el año 1438.
+            Asimismo, según algunos historiadores, durante la época de Manco Cápac esta era un 
+            pequeño templo llamado Inticancha, mientras que con la llegada de Pachacútec la construcción de su tamaño 
+            colosal y pasó a llamarse Coricancha.
+            Como todas las edificaciones incas, este templo fue construido en una base de piedras labradas con gran precisión
+            y encajadas con otras sin ningún tipo de argamasa. Además de un impresionante tamaño, estas piedras llaman la atención por la gran
+            cantidad de ángulos que tienen: algunas de ellas cuentan con hasta 30 esquemas que conectan perfectamente con todas las que están en su alrededor.
             </p>
             </br></br>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Debido a que estaba dedicado a los dioses Sol, este edificio se redujo totalmente por las planchas de oro,
+            lo que se hizo mucho más ostentoso. Además, dentro del templo estaban representadas en oro, plata y tumbaga. 
+            Algunas de las deidades incluyen elementos de la fauna y la flora de nuestro país.
+            Antes de la llegada de los españoles, el templo contó con una gran cantidad de habitaciones con diferentes funciones.
+            Al interior solo le permiten acceder a las personalidades más importantes de la época, mientras que los pobladores de todo
+            el Imperio han llegado hasta este lugar en un culto a sus dioses que hacían en el exterior. Además, 
+            en los jardines de la parte baja del templo acudían las tribus conquistadas a entregar sus ofrendas.
             </p>
             </br>
-        </div>  
+        </div>
     </div>
     <div class="mapa">
+    <h2 class="center-align titulo">UBICACIÓN</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.250114637151!2d-71.97742258546792!3d-13.520236490497627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMxJzEyLjMiUyA3McKwNTgnMzAuNyJX!5e0!3m2!1ses-419!2spe!4v1612154769207!5m2!1ses-419!2spe" width="600" height="450" 
     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>

@@ -5,95 +5,39 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Chinchero</title>
     <link rel="stylesheet" href="css/estiloP.css">
+    <link rel="stylesheet" href="css/ulestilo.css">
     <link rel="stylesheet" href="fonts.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
-    <header>
-        <div class="menu-bar">
-            <a href="#" class="menusito"><span class="icon-menu"></span>MENU</a>
+<?php include "Principal.php"; ?>
+    <div class="container"> 
+                <h2 class="center-align titulo">CENTRO ARQUEOLÓGICO DE CHINCHERO</h2>
+                <img src="img/chin.jpg" alt="" width="500">
         </div>
-        <nav>
-            <ul>
-                <li><a href="Principal.php"><span class="icon-home"></span>INICIO</a></li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-library"></span>CENTROS ARQUEOLÓGICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="Saqsaywaman.php">SAQSAYWAMAN<span class="icon-star-full"></span></a></li>
-                        <li><a href="tambomachay.php">TAMBOMACHAY<span class="icon-star-full"></span></a></li>
-                        <li><a href="machu.php">MACHU PICCHU<span class="icon-star-full"></span></a></li>
-                        <li><a href="coricancha.php">CORICANCHA<span class="icon-star-full"></span></a></li>
-                        <li><a href="ollantay.php">OLLANTAYTAMBO<span class="icon-star-full"></span></a></li>
-                        <li><a href="pisac.php">PISAC<span class="icon-star-full"></span></a></li>
-                        <li><a href="chinchero.php">CHINCHERO<span class="icon-star-full"></span></a></li>
-                        <li><a href="moray.php">MORAY<span class="icon-star-full"></span></a></li>
-                    </ul>
-                </li>
-                 <li class="submenu">
-                    <a href="#"><span class="icon-office"></span>LUGARES TURÍSTICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="plaza.php">PLAZA PRINCIPAL DE CUSCO<span class="icon-cloud"></span></a></li>
-                        <li><a href="salinera.php">SALINERAS DE MARAS<span class="icon-cloud"></span></a></li>
-                        <li><a href="humantay.php">LAGUNA HUMANTAY<span class="icon-cloud"></span></a></li>
-                        <li><a href="vinicu.php">VINICUNCA<span class="icon-cloud"></span></a></li>
-                        <li><a href="vrojo.php">VALLE ROJO<span class="icon-cloud"></span></a></li>
-                        <li><a href="huasao.php">HUMEDAL DE HUASAO<span class="icon-cloud"></span></a></li>
-                        <li><a href="punchu.php">MONTAÑA PALLAY PUNCHU<span class="icon-cloud"></span></a></li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-images"></span> GALERÍA DE IMÁGENES<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="#">INSERTAR TUS IMÁGENES<span class="icon-file-picture"></span></a></li>
-                        <li><a href="#">MI GALERÍA<span class="icon-image"></span></a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="icon-stackoverflow">ACERCA DE</span></a></li>
-                <li><a href="Login.php"><span class="icon">SALIR</span></a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="contenedor">
-        <h3>CENTRO ARQUEOLÓGICO DE CHINCHERO</h3>
-        <div id="slider">
-            <ul id="slider-ul">
-            </ul> 
-        </div>
-        <div id="text">
+        <div class="texto">
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Chinchero fue un importante centro urbano cuyo centro principal se ubicaba en donde hoy está la iglesia,
+            en sus aledaños se exhiben formidables paredes de poliedros ensamblados que forman muros
+            de contención dando forma a los andenes, también podemos ver grandes salas con ventanas, hornacinas, puertas y accesos.
+            La actual plaza principal, donde se realizan las ferias dominicales, concluye con un muro inca en el lado oriental,
+            el cual presenta 12 hornacinas, cada una de 2m de alto y 1.50m de ancho. Este muro a su vez sirve de paramento y
+            contención a otra plaza que hace de atrio en frente a la Iglesia.
+            También en la zona encontramos los restos de tres adoratorios llamados Titiqaqa, Pumaqaqa, Chincana;
+            que son enormes afloramientos de roca caliza labrados cuidadosamente, por los antiguos peruanos, en forma de escaños,
+            escalinatas, alacenas y canales. Existen un grupo de andenes construidos obedeciendo la conformación del terreno.
             </p>
             </br></br>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Los actuales poblados de Chinchero, así como los de Ollantaytambo y otros lugares, están aposentados sobre antiguos poblados prehispánicos. Chinchero estuvo sobre el camino directo que en tiempos de los incas conducía 
+            rectamente hacia Machu Picchu y fue un importante centro urbano que aun hoy podemos apreciar en torno a su iglesia y plaza.
             </p>
             </br>
-        </div>    
+        </div>
     </div>
     <div class="mapa">
+    <h2 class="center-align titulo">UBICACIÓN</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.3689578302888!2d-72.04866378546973!3d-13.389465590582702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd97e0f64581f%3A0xa4706793c64ac621!2sCentro%20Arqueol%C3%B3gico%20de%20Chinchero!5e0!3m2!1ses-419!2spe!4v1612154558018!5m2!1ses-419!2spe" width="600" height="450" 
     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>

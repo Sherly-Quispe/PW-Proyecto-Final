@@ -5,95 +5,37 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Moray</title>
     <link rel="stylesheet" href="css/estiloP.css">
+    <link rel="stylesheet" href="css/ulestilo.css">
     <link rel="stylesheet" href="fonts.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
-    <header>
-        <div class="menu-bar">
-            <a href="#" class="menusito"><span class="icon-menu"></span>MENU</a>
+<?php include "Principal.php"; ?>
+    <div class="container"> 
+                <h2 class="center-align titulo">SITIO ARQUEOLÓGICO DE MORAY</h2>
+                <img src="img/moray.jpg" alt="" width="500">
         </div>
-        <nav>
-            <ul>
-                <li><a href="Principal.php"><span class="icon-home"></span>INICIO</a></li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-library"></span>CENTROS ARQUEOLÓGICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="Saqsaywaman.php">SAQSAYWAMAN<span class="icon-star-full"></span></a></li>
-                        <li><a href="tambomachay.php">TAMBOMACHAY<span class="icon-star-full"></span></a></li>
-                        <li><a href="machu.php">MACHU PICCHU<span class="icon-star-full"></span></a></li>
-                        <li><a href="coricancha.php">CORICANCHA<span class="icon-star-full"></span></a></li>
-                        <li><a href="ollantay.php">OLLANTAYTAMBO<span class="icon-star-full"></span></a></li>
-                        <li><a href="pisac.php">PISAC<span class="icon-star-full"></span></a></li>
-                        <li><a href="chinchero.php">CHINCHERO<span class="icon-star-full"></span></a></li>
-                        <li><a href="moray.php">MORAY<span class="icon-star-full"></span></a></li>
-                    </ul>
-                </li>
-                 <li class="submenu">
-                    <a href="#"><span class="icon-office"></span>LUGARES TURÍSTICOS<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="plaza.php">PLAZA PRINCIPAL DE CUSCO<span class="icon-cloud"></span></a></li>
-                        <li><a href="salinera.php">SALINERAS DE MARAS<span class="icon-cloud"></span></a></li>
-                        <li><a href="humantay.php">LAGUNA HUMANTAY<span class="icon-cloud"></span></a></li>
-                        <li><a href="vinicu.php">VINICUNCA<span class="icon-cloud"></span></a></li>
-                        <li><a href="vrojo.php">VALLE ROJO<span class="icon-cloud"></span></a></li>
-                        <li><a href="huasao.php">HUMEDAL DE HUASAO<span class="icon-cloud"></span></a></li>
-                        <li><a href="punchu.php">MONTAÑA PALLAY PUNCHU<span class="icon-cloud"></span></a></li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#"><span class="icon-images"></span> GALERÍA DE IMÁGENES<span class="despegable icon-circle-down"></span></a>
-                    <ul class="hijos">
-                        <li><a href="#">INSERTAR TUS IMÁGENES<span class="icon-file-picture"></span></a></li>
-                        <li><a href="#">MI GALERÍA<span class="icon-image"></span></a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="icon-stackoverflow">ACERCA DE</span></a></li>
-                <li><a href="Login.php"><span class="icon">SALIR</span></a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="contenedor">
-        <h3>SITIO ARQUEOLÓGICO DE MORAY</h3>
-        <div id="slider">
-            <ul id="slider-ul">
-            </ul> 
-        </div>
-        <div>
+        <div class="texto">
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Se trata de terrazas o andenes agrícolas construidos en depresiones u hoyos naturales gigantescos.
+             Estas terrazas están superpuestas concéntricamente, tomando la forma de un gigantesco anfiteatro.
+             El hoyo mayor tiene una profundidad de 150 m y el promedio de altura de los andenes es de 1.80 m.
+            Según historiadores estas construcciones constituían un importante laboratorio agrícola del imperio incaico.
+            Ya que sus andenes están construidos con sus respectivos canales de irrigación y cada una de ellas constituyen un microclima.
+            Lo que llama la atención es la gran diferencia de temperatura media anual entre la parte superior y el fondo de las depresiones, 
+            diferencia que llega a tener hasta 15°C.
             </p>
             </br></br>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab officiis iusto, 
-                similique iure fugit quos placeat magnam. Fugiat, distinctio. Minus, 
-                cupiditate voluptatem cum assumenda ea iusto sed quos quam.
+            Los andenes, construidas sobre muros de contención rellenados con tierra fértil y regada mediante complejos sistemas de irrigación, permitían cultivar más de 250 especies vegetales.
+            Estos andenes sirvieron de laboratorio agrícola inca para experimentar con sus cultivos. Moray encierra historia y belleza paisajística.
             </p>
             </br>
-        </div>   
+        </div>
     </div>
     <div class="mapa">
+    <h2 class="center-align titulo">UBICACIÓN</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10021.15826750398!2d-72.19926292097368!3d-13.329854819937841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dc3a5b4a291c9%3A0x14c05f95d6a68a83!2sMoray!5e0!3m2!1ses-419!2spe!4v1612154234523!5m2!1ses-419!2spe" width="600" height="450" 
     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
